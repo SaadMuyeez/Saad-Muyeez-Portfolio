@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Saad's Portfolio</h1>
+            <div class="wrap">
+                <ul id="Links">
+                    <button onclick="closeaction()" id="close">
+                        <img src="/SVG/close_FILL0_wght400_GRAD0_opsz24(1).svg" alt="">
+                    </button>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#ABT">About</a></li>
+                    <li><a href="#PROJECTS">Projects</a></li>
+                    <li><a href="#FOOTER">Contact</a></li>
+                </ul>
+                <div class="lines">
+
+                </div>
+            </div>
+            <button onclick="openaction()" id="btn"><img src="/SVG/menu_FILL0_wght400_GRAD0_opsz24(1).svg"
+                    alt=""></button>
+        </nav>
+    </header>
+
+    <section class="section1">
+        <main>
+            <div id="Home" class="left">
+                <div class="left-align">
+                    <h2>Hey,</h2>
+                    <h4>My Name is <i class="name">Saad Muyeez</i></h4>
+                    <div>
+                        and Iam a
+                    </div>
+                    <span id="element"></span>
+                </div>
+                <div class="btns">
+                    <button><a
+                            href="https://www.linkedin.com/in/saad-muyeez-7b745a303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Hire
+                            Me</a></button>
+                    <button><a href="/PDF/SAAD MUYEEZ RESUME.pdf">My Resume</a></button>
+                </div>
+            </div>
+            <div class="right">
+                <img src="/IMAGES/nobg.png" alt="">
+                <span id="ABT"></span>
+            </div>
+        </main>
+    </section>
+
+    <section class="section2">
+        <div id="About" class="about-me">
+            <h1>About Me !</h1>
+            <div class="desc">
+                <h2>I’m currently pursuing Bachelor’s in Computer Applications and an Advanced Diploma in Data Center
+                    Architecture at SSMRV College. To supercharge my coding skills I’ve completed numerous. I’m also
+                    proud to hold a patent titled “EcoAlert” and have been an integral part of a dynamic research team.
+                    I’ve had the incredible opportunity to contribute to my college newsletter known as Youthesta
+                    Gazette.🚀
+                </h2>
+            </div>
+        </div>
+        </div>
+        <span id="PROJECTS"></span>
+    </section>
+
+    <section class="section3">
+        <div id="Projects" class="container">
+            <div class="pro">
+                <p>Projects</p>
+            </div>
+            <div class="cardflex">
+                <div class="cards">Coming Soon</div>
+                <div class="cards">Coming Soon</div>
+                <div class="cards">Coming Soon</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="Contact" class="last">
+            <div class="Container-Socials">
+                <div class="socials Gmail">
+                    <img src="/SVG/gmail.png" alt="">
+                    <h1>
+                        saadmuyeez@gmail.com
+                    </h1>
+                </div>
+                <div class="socials Linkedin">
+                    <a
+                        href="https://www.linkedin.com/in/saad-muyeez-7b745a303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <img src="/SVG/linkedin.png" alt="">
+                        <h1>
+                            Linkedin
+                        </h1>
+                    </a>
+                </div>
+                <div class="socials Instagram">
+                    <img src="/SVG/instagram.svg" alt="">
+                    <h1>
+                        Instagram @saad_muyeez
+                    </h1>
+                </div>
+                <div class="socials Github">
+                    <a href="https://github.com/SaadMuyeez">
+                        <img src="/SVG/github.svg" alt="">
+                        <h1>
+                            GitHub
+                        </h1>
+                    </a>
+                </div>
+            </div>
+            <footer>
+                Saad Muyeez &copy; All Rights Resevered.
+            </footer>
+        </div>
+        <span id="FOOTER"></span>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Content Writer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
